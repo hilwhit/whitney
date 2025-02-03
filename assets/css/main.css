@@ -19,37 +19,37 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #fef9e1; /* Background color for the entire website, including individual sections */
-  --default-color: #e5d0ac; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #6d2323; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #a31d1d; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --background-color: #ebedee; /* Background color for the entire website, including individual sections */
+  --default-color: #ebedee; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #053613; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #24a34a; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #ebedee; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #ebedee; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #e5d0ac;  /* The default color of the main navmenu links */
-  --nav-hover-color: #a31d1d; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #e5d0ac; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #a31d1d; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-color: #ebedee;  /* The default color of the main navmenu links */
+  --nav-hover-color: #24a34a; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #ebedee; /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #ebedee; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-color: #ebedee; /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-hover-color: #24a34a; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: e5d0ac;
-  --surface-color: #ffffff;
+  --background-color: ebedee;
+  --surface-color: #ebedee;
 }
 
 .dark-background {
   --background-color: #060606;
-  --default-color: #ffffff;
-  --heading-color: #ffffff;
+  --default-color: #ebedee;
+  --heading-color: #ebedee;
   --surface-color: #252525;
-  --contrast-color: #ffffff;
+  --contrast-color: #ebedee;
 }
 
 /* Smooth scroll */
@@ -92,7 +92,7 @@ h6 {
 .php-email-form .error-message {
   display: none;
   background: #df1529;
-  color: #ffffff;
+  color: #ebedee;
   text-align: left;
   padding: 15px;
   margin-bottom: 24px;
@@ -101,8 +101,8 @@ h6 {
 
 .php-email-form .sent-message {
   display: none;
-  color: #ffffff;
-  background: #a31d1d;
+  color: #ebedee;
+  background: #24a34a;
   text-align: center;
   padding: 15px;
   margin-bottom: 24px;
@@ -441,7 +441,7 @@ h6 {
   }
 
   .mobile-nav-active .mobile-nav-toggle {
-    color: #fff;
+    color: #24a34a;
     position: absolute;
     font-size: 32px;
     top: 15px;
@@ -1087,7 +1087,7 @@ section,
 }
 
 .services .service-item.item-cyan:hover .icon i {
-  color: #fff;
+  color: #24a34a;
 }
 
 .services .service-item.item-cyan:hover .icon path {
@@ -1099,7 +1099,7 @@ section,
 }
 
 .services .service-item.item-orange:hover .icon i {
-  color: #fff;
+  color: #24a34a;
 }
 
 .services .service-item.item-orange:hover .icon path {
@@ -1111,7 +1111,7 @@ section,
 }
 
 .services .service-item.item-teal:hover .icon i {
-  color: #fff;
+  color: #24a34a;
 }
 
 .services .service-item.item-teal:hover .icon path {
@@ -1123,7 +1123,7 @@ section,
 }
 
 .services .service-item.item-red:hover .icon i {
-  color: #fff;
+  color: #24a34a;
 }
 
 .services .service-item.item-red:hover .icon path {
@@ -1135,7 +1135,7 @@ section,
 }
 
 .services .service-item.item-indigo:hover .icon i {
-  color: #fff;
+  color: #24a34a;
 }
 
 .services .service-item.item-indigo:hover .icon path {
@@ -1147,7 +1147,7 @@ section,
 }
 
 .services .service-item.item-pink:hover .icon i {
-  color: #fff;
+  color: #24a34a;
 }
 
 .services .service-item.item-pink:hover .icon path {
