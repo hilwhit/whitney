@@ -19,37 +19,37 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #ebedee; /* Background color for the entire website, including individual sections */
-  --default-color: #24a341; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #053613; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #FCB7BB; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ebedee; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ebedee; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --background-color: #cae0d6; /* Background color for the entire website, including individual sections */
+  --default-color: #18ae97; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #141617; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #18ae97; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #cae0d6; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #cae0d6; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #24a34a;  /* The default color of the main navmenu links */
-  --nav-hover-color: #053613; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #ebedee; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #ebedee; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #ebedee; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #24a34a; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-color: #18ae97;  /* The default color of the main navmenu links */
+  --nav-hover-color: #141617; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #cae0d6; /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #cae0d6; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-color: #cae0d6; /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-hover-color: #18ae97; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: ebedee;
-  --surface-color: #ebedee;
+  --background-color: cae0d6;
+  --surface-color: #cae0d6;
 }
 
 .dark-background {
   --background-color: #060606;
-  --default-color: #ebedee;
-  --heading-color: #ebedee;
+  --default-color: #cae0d6;
+  --heading-color: #cae0d6;
   --surface-color: #252525;
-  --contrast-color: #ebedee;
+  --contrast-color: #cae0d6;
 }
 
 /* Smooth scroll */
@@ -91,8 +91,8 @@ h6 {
 ------------------------------*/
 .php-email-form .error-message {
   display: none;
-  background: #24a34a;
-  color: #ebedee;
+  background: #18ae97;
+  color: #cae0d6;
   text-align: left;
   padding: 15px;
   margin-bottom: 24px;
@@ -101,8 +101,8 @@ h6 {
 
 .php-email-form .sent-message {
   display: none;
-  color: #ebedee;
-  background: #24a34a;
+  color: #cae0d6;
+  background: #18ae97;
   text-align: center;
   padding: 15px;
   margin-bottom: 24px;
@@ -441,7 +441,7 @@ h6 {
   }
 
   .mobile-nav-active .mobile-nav-toggle {
-    color: #24a34a;
+    color: #18ae97;
     position: absolute;
     font-size: 32px;
     top: 15px;
@@ -467,7 +467,7 @@ h6 {
 # Global Footer
 --------------------------------------------------------------*/
 .footer {
-  color:#ebedee ;
+  color:#cae0d6 ;
   background-color: var(--background-color);
   font-size: 14px;
   padding: 40px 0;
@@ -491,13 +491,13 @@ h6 {
   border-radius: 50%;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
   font-size: 16px;
-  color: color-mix(in srgb,#ebedee, transparent 50%);
+  color: color-mix(in srgb,#cae0d6, transparent 50%);
   margin: 0 5px;
   transition: 0.3s;
 }
 
 .footer .social-links a:hover {
-  color:#ebedee;
+  color:#cae0d6;
   border-color: var(--accent-color);
 }
 
@@ -1083,27 +1083,27 @@ section,
 }
 
 .services .service-item.item-cyan i {
-  color: #FCB7BB;
+  color: #18ae97;
 }
 
 .services .service-item.item-cyan:hover .icon i {
-  color: #24a34a;
+  color: #18ae97;
 }
 
 .services .service-item.item-cyan:hover .icon path {
-  fill: #FCB7BB;
+  fill: #18ae97;
 }
 
 .services .service-item.item-orange i {
-  color: #24A34A;
+  color: #18ae97;
 }
 
 .services .service-item.item-orange:hover .icon i {
-  color: #24a34a;
+  color: #18ae97;
 }
 
 .services .service-item.item-orange:hover .icon path {
-  fill: #24A34A;
+  fill: #18ae97;
 }
 
 .services .service-item.item-teal i {
@@ -1111,7 +1111,7 @@ section,
 }
 
 .services .service-item.item-teal:hover .icon i {
-  color: #24a34a;
+  color: #18ae97;
 }
 
 .services .service-item.item-teal:hover .icon path {
@@ -1119,39 +1119,39 @@ section,
 }
 
 .services .service-item.item-red i {
-  color: #053613;
+  color: #141617;
 }
 
 .services .service-item.item-red:hover .icon i {
-  color: #24a34a;
+  color: #18ae97;
 }
 
 .services .service-item.item-red:hover .icon path {
-  fill: #053613;
+  fill: #141617;
 }
 
 .services .service-item.item-indigo i {
-  color: #053613;
+  color: #141617;
 }
 
 .services .service-item.item-indigo:hover .icon i {
-  color: #24a34a;
+  color: #18ae97;
 }
 
 .services .service-item.item-indigo:hover .icon path {
-  fill: #053613;
+  fill: #141617;
 }
 
 .services .service-item.item-pink i {
-  color: #24A34A;
+  color: #18ae97;
 }
 
 .services .service-item.item-pink:hover .icon i {
-  color: #24a34a;
+  color: #18ae97;
 }
 
 .services .service-item.item-pink:hover .icon path {
-  fill: #24A34A;
+  fill: #18ae97;
 }
 
 /*--------------------------------------------------------------
